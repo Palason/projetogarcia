@@ -1,0 +1,142 @@
+
+
+
+
+#container {
+	display: grid;
+	  width: 100%;
+  height: 800px;
+  grid-template-areas: "header header header header"
+                       "nav  main main aside"
+					   "nav  main main aside"
+					   "nav  main main aside"
+                       "footer  footer footer footer";
+					   
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  grid-gap: 10px;
+  
+}
+	btn3 {
+	background: url(botaosnow.jpg) no-repeat;
+	width: 300px;
+	height:160px;
+	margin: 10px auto;
+	display: block;
+	border-radius: 10px;
+	
+}
+
+
+
+
+.header {
+  grid-area: header;
+  border: 1px solid black;
+  text-align: center;
+  
+}
+
+
+.aside {
+  grid-area: aside;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.nav {
+  grid-area: nav;
+  border: 1px solid black;
+  text-align: center;
+  max-width: 265px;
+}
+
+
+.main {
+  grid-area: main;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: -60px;
+}
+
+.footer {
+  grid-area: footer;
+border: 1px solid black;
+  height: 60px;
+  text-align: center;
+}
+
+#dracarys {
+	font-size: 50px;
+	color: red;
+}
+
+.botaopersonagem {
+	
+}
+
+.joao {
+	
+	background: url(snowicon.png) center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	}
+	
+.arya {
+	
+	background: url(aryaicon.png) center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	}
+	
+.corvineo {
+	
+	background: url(corvineoicon.png) center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	}
+	
+.danadis {
+	
+	background: url(danadisicon.png) center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	}
+.anao {
+	
+	background: url(anaoicon.png) center;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	}
+
+iframe {
+	
+	height: 500px;
+	width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
