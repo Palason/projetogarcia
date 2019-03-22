@@ -8,8 +8,8 @@
   height: 800px;
   grid-template-areas: "header header header header"
                        "nav  main main aside"
-					   "nav  main main aside"
-					   "nav  main main aside"
+					   						"nav  main main aside"
+					  						 "nav  main main aside"
                        "footer  footer footer footer";
 					   
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -32,7 +32,7 @@
 
 .header {
   grid-area: header;
-  border: 1px solid black;
+  
   text-align: center;
   
 }
@@ -40,14 +40,14 @@
 
 .aside {
   grid-area: aside;
-  border: 1px solid black;
+  
   text-align: center;
 }
 
 
 .nav {
   grid-area: nav;
-  border: 1px solid black;
+  
   text-align: center;
   max-width: 265px;
 }
@@ -55,14 +55,14 @@
 
 .main {
   grid-area: main;
-  border: 1px solid black;
+  
   text-align: center;
   margin-left: -60px;
 }
 
 .footer {
   grid-area: footer;
-border: 1px solid black;
+	
   height: 60px;
   text-align: center;
 }
@@ -121,6 +121,15 @@ iframe {
 	width: 700px;
 }
 
+.btn2, .btn3, .btn4, .btn5, .btn6  {
+	
+	
+	font-size: 25px;
+	border-radius: 10px;
+	
+	
+	
+}
 
 
 

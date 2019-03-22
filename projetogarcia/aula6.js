@@ -43,7 +43,7 @@ function teste(){
 	var botao = document.createElement("Button");               
 	botao.setAttribute("class", "btn2");
 	botao.setAttribute("onclick", "carregaheader()");
-	botao.innerText = "Nao Me Aperte";               
+	botao.innerText = "Banner";               
 	var x = document.querySelector(".header");
 	x.appendChild(botao);
 	
@@ -57,7 +57,7 @@ function teste(){
 	var botao = document.createElement("Button");  
 	botao.setAttribute("class", "btn4");
     botao.setAttribute("onclick", "carreganav()");	
-	botao.innerText = "Nao Me Aperte";               
+	botao.innerText = "Lista de Personagens";               
 	var x = document.querySelector(".nav");
 	x.appendChild(botao);
 	
@@ -70,7 +70,7 @@ function teste(){
 	
 	var botao = document.createElement("Button");   
 	botao.setAttribute("class", "btn6");	
-	botao.innerText = "Nao Me Aperte";  
+	botao.innerText = "Trailer";  
 botao.setAttribute("onclick", "carregafooter()");	
 	var x = document.querySelector(".footer");
 	x.appendChild(botao);
